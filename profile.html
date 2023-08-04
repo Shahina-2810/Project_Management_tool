@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profilepage-SocialBook</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/3c5995d9f5.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav>
+        <div class="nav-left">
+                <a href="index.html">
+                <img src="images/logo.png" class="logo">
+                </a>
+                <ul>
+                    <li><img src="images/notification.png"></li>
+                    <li><img src="images/inbox.png"></li>
+                    <li><img src="images/video.png"></li>
+                </ul>
+        </div>
+        <div class="nav-right">
+                <div class="search-box">
+                    <img src="images/search.png">
+                    <input type="text" placeholder="Search">
+                </div>
+                <div class="nav-user-icon online" onclick="settingsMenuToggle()">
+                    <img src="images/profile-pic.png" alt="">
+                </div>
+        </div>
+            <!-----------------settings-menu------------------->
+            <div class="settings-menu">
+                <div id="dark-btn">
+                    <span></span>
+                </div>
+                    <div class="settings-menu-inner">
+                        <div class="user-profile">
+                            <img src="images/profile-pic.png">
+                            <div>
+                                <p>Thomas Edison</p>
+                                <a href="profile.html">See your profile</a>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="user-profile">
+                            <img src="images/feedback.png">
+                            <div>
+                                <p>Give Feedback</p>
+                                <a href="#">Help us to improve the new design</a>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="setting-links">
+                            <img src="images/setting.png" class="setting-icon">
+                            <a href="#">Settings &  Privacy <img src="images/arrow.png" width="10px"></a>
+                        </div>
+                        <div class="setting-links">
+                            <img src="images/help.png" class="setting-icon">
+                            <a href="#">Help &  Support<img src="images/arrow.png" width="10px"></a>
+                        </div>
+                        <div class="setting-links">
+                            <img src="images/display.png" class="setting-icon">
+                            <a href="#">display &  Accessibility <img src="images/arrow.png" width="10px"></a>
+                        </div>
+                        <div class="setting-links">
+                            <img src="images/logout.png" class="setting-icon">
+                            <a href="#">Logout <img src="images/arrow.png" width="10px"></a>
+                        </div>
+                    </div>
+            </div>
+
+    </nav>
+        
+      <!-----------------profile-page--------------->
+    <div class="profile-container">
+        <img src="images/cover.png" class="cover-img">
+        <div class="profile-details">
+            <div class="pd-left">
+                <div class="pd-row">
+                    <img src="images/profile-pic.png" class="pd-image">
+                    <div>
+                        <h3>Thomas Edison</h3>
+                        <p>108 Friends - 31 mutual</p>
+                        <img src="images/member-1.png">
+                        <img src="images/member-2.png">
+                        <img src="images/member-3.png">
+                        <img src="images/member-4.png">
+                    </div>
+                </div>
+
+            </div>
+            <div class="pd-right">
+                <button type="button"> <img src="images/add-friends.png">Friends</button>
+                <button type="button"><img src="images/message.png"> Message</button>
+                <br>
+                <a href="#"><img src="images/more.png"></a>
+            </div>
+        </div>
+
+        <div class="profile-info">
+            <div class="info-col">
+                <div class="profile-intro">
+                    <h3>Intro</h3>
+                    <p class="intro-text">Believe in yourself and you can do unbelievable things. <img src="images/feeling.png"></p>
+                    <hr>
+                    <ul>
+                        <li><img src="images/profile-job.png">Full Stack Developer at Amazon</li>
+                        <li><img src="images/profile-study.png">Studied at Kkr & Ksr Institute Of Technology and Sciences</li>
+                        <li><img src="images/profile-study.png">Went to Hyderabad</li>
+                        <li><img src="images/profile-home.png">Lives in Bangalore,India</li>
+                        <li><img src="images/profile-location.png">from Guntur,India</li>
+                    </ul>
+                </div>
+                <div class="profile-intro">
+                    <div class="title-box">
+                        <h3>Photos</h3>
+                        <a href="">All Photos</a>
+                    </div>
+                   
+                    <div class="photo-box">
+                        <div><img src="images/photo1.png"></div>
+                        <div><img src="images/photo2.png"></div>
+                        <div><img src="images/photo3.png"></div>
+                        <div><img src="images/photo4.png"></div>
+                        <div><img src="images/photo5.png"></div>
+                        <div><img src="images/photo6.png"></div>
+                    </div>
+                </div>
+
+                <div class="profile-intro">
+                    <div class="title-box">
+                        <h3>Friends</h3>
+                        <a href="">All Friends</a>
+                    </div>
+                    <p>108(31 mutual)</p>
+                    <div class="friends-box">
+                        <div><img src="images/member-1.png"><p>Alison Mina</p></div>
+                        <div><img src="images/member-2.png"><p>Joseph</p></div>
+                        <div><img src="images/member-3.png"><p>Tina</p></div>
+                        <div><img src="images/member-4.png"><p>John</p></div>
+                        <div><img src="images/member-5.png"><p>Syed</p></div>
+                        <div><img src="images/member-6.png"><p>Selena</p></div>
+                        <div><img src="images/member-7.png"><p>Taylor</p></div>
+                        <div><img src="images/member-8.png"><p>Shahina</p></div>
+                        <div><img src="images/member-9.png"><p>Sandy</p></div>
+                    </div>
+                </div>
+
+            </div>
+                <div class="post-col">
+                    
+                <div class="write-post-container">
+                    <div class="user-profile">
+                        <img src="images/profile-pic.png">
+                        <div>
+                            <p>Thomas Edison</p>
+                            <small>Public <i class="fa-sharp fa-solid fa-sort-down"></i></small>
+                        </div>
+                    </div>
+                    <div class="post-input-container">
+                        <textarea rows="3" placeholder="What's on your mind, John?"></textarea>
+                        <div class="add-post-links">
+                            <a href="#"><img src="images/live-video.png">Live Video</a>
+                            <a href="#"><img src="images/photo.png">Photo/Video</a>
+                            <a href="#"><img src="images/feeling.png">Feeling/Activity</a>
+                        </div>
+                    </div>
+
+                    
+                    <div class="post-container">
+                        <div class="post-row">
+                        <div class="user-profile">
+                             <img src="images/profile-pic.png">
+                                 <div>
+                                      <p>Thomas Edison</p>
+                                      <span>May 15 2023, 6:20 pm</span>
+                                 </div>
+                            </div>
+                            <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                        </div>
+                        <p class="post-text">Hi I am working as Full Stack Developer in Amazon<a href="#">#Amazon</a><a href="#">#FullStackDeveloper</a></p>
+                        <img src="images/feed-image-1.png" class="post-img">
+                        <div class="post-row">
+                            <div class="activity-icons">
+                                <div><img src="images/like-blue.png">120</div>
+                                <div><img src="images/share.png">45</div>
+                                <div><img src="images/comments.png">20</div>
+                            </div>
+                            <div class="post-profile-icons">
+                                <img src="images/profile-pic.png"><i class="fa-sharp fa-solid fa-sort-down"></i>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    
+                    <div class="post-container">
+                        <div class="post-row">
+                        <div class="user-profile">
+                             <img src="images/profile-pic.png">
+                                 <div>
+                                      <p>Thomas Edison</p>
+                                      <span>Oct 28 2023, 10:55 am</span>
+                                 </div>
+                            </div>
+                            <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                        </div>
+                        <p class="post-text">Today me and my friends planned a trip to goa and we have enjoyed a lot near the seaside.<a href="#">#Goa</a><a href="#">#Friends #Enjoying</a></p>
+                        <img src="images/feed-image-2.png" class="post-img">
+                        <div class="post-row">
+                            <div class="activity-icons">
+                                <div><img src="images/like-blue.png">2810</div>
+                                <div><img src="images/share.png">311</div>
+                                <div><img src="images/comments.png">131</div>
+                            </div>
+                            <div class="post-profile-icons">
+                                <img src="images/profile-pic.png"><i class="fa-sharp fa-solid fa-sort-down"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="post-container">
+                        <div class="post-row">
+                        <div class="user-profile">
+                             <img src="images/profile-pic.png">
+                                 <div>
+                                      <p>Thomas Edison</p>
+                                      <span>Jan 2 2022, 9:34 am</span>
+                                 </div>
+                            </div>
+                            <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                        </div>
+                        <p class="post-text">I like to travel around the world.It takes some time but I have started from Bangalore.<a href="#">#Bangalore</a><a href="#">#Travel</a></p>
+                        <img src="images/member-5.png" class="post-img">
+                        <div class="post-row">
+                            <div class="activity-icons">
+                                <div><img src="images/like-blue.png">1412</div>
+                                <div><img src="images/share.png">191</div>
+                                <div><img src="images/comments.png">209</div>
+                            </div>
+                            <div class="post-profile-icons">
+                                <img src="images/profile-pic.png"><i class="fa-sharp fa-solid fa-sort-down"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="post-container">
+                        <div class="post-row">
+                        <div class="user-profile">
+                             <img src="images/profile-pic.png">
+                                 <div>
+                                      <p>Thomas Edison</p>
+                                      <span>Feb 13 2022, 11:00 am</span>
+                                 </div>
+                            </div>
+                            <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                        </div>
+                        <p class="post-text">I have attented to an important meeting.We have discussed about the Current technologies<a href="#">#TeamWork</a><a href="#">#IBM</a></p>
+                        <img src="images/feed-image-5.png" class="post-img">
+                        <div class="post-row">
+                            <div class="activity-icons">
+                                <div><img src="images/like-blue.png">9859</div>
+                                <div><img src="images/share.png">627</div>
+                                <div><img src="images/comments.png">3891</div>
+                            </div>
+                            <div class="post-profile-icons">
+                                <img src="images/profile-pic.png"><i class="fa-sharp fa-solid fa-sort-down"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="post-container">
+                        <div class="post-row">
+                        <div class="user-profile">
+                             <img src="images/profile-pic.png">
+                                 <div>
+                                      <p>Thomas Edison</p>
+                                      <span>Aug 5 2023, 5:00 am</span>
+                                 </div>
+                            </div>
+                            <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                        </div>
+                        <p class="post-text">I have met my schoolmates after a long time. I have enjoined a lot and recalled my school memories.<a href="#">#SchoolFriends</a><a href="#">#Memories</a></p>
+                        <img src="images/feed-image-3.png" class="post-img">
+                        <div class="post-row">
+                            <div class="activity-icons">
+                                <div><img src="images/like-blue.png">342</div>
+                                <div><img src="images/share.png">68</div>
+                                <div><img src="images/comments.png">352</div>
+                            </div>
+                            <div class="post-profile-icons">
+                                <img src="images/profile-pic.png"><i class="fa-sharp fa-solid fa-sort-down"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+        </div>
+    </div>
+
+<script src="script.js"></script>
+
+
+</body>
+</html>
